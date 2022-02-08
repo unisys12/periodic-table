@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <link rel="stylesheet" href="./assets/css/vars.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/template-styles.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Periodic Table of Elements</h1>
+    </header>
+    <main class="table-element">
+        {% set elements = pte %}
+
+        {% for group, elements in elements | groupby("group") %}
+
+            {% for block, elements in elements | groupby("block") %}
+                {% if block != "f" %}
+                <section class="block-{{ block }}">
+                    {% for element in elements %}     
+                            <article 
+                            data-template="{{ element.atomicNumber }}"
+                            class="period-{{ element.period }} group-{{ element.group }} {{ element.groupBlock | replace(" ", "-") }}" 
+                            data-block="{{ block }}" 
+                            id="{{ element.symbol }}">
+                                <div class="subgrid">
+                                    <div>{{ element.atomicNumber }}</div>
+                                    <div class="symbol">{{ element.symbol }}</div>
+                                    <div class="name">{{ element.name }}</div>
+                                    <div class="mass">{{ element.atomicMass }}</div>
+                                </div>
+                            </article>
+                    {% endfor %}
+                </section>
+                {% endif %}
+            {% endfor %}
+            
+        {% endfor %}
+    </main>
+    {% include "tippy-template.njk" %}
+    <footer><span>&copy; 2021 Phillip Jackson</span></footer>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <script>        
+        tippy('article', {
+            content(reference) {
+                const id = reference.getAttribute('data-template');
+                const template = document.getElementById(id);
+                return template.innerHTML;
+            },
+            allowHTML: true,
+            interactive: true
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,593 @@
+:root {
+--H: #FFFFFF;
+--He: #D9FFFF;
+--Li: #CC80FF;
+--Be: #C2FF00;
+--B: #FFB5B5;
+--C: #909090;
+--N: #3050F8;
+--O: #FF0D0D;
+--F: #9eaf51;
+--Ne: #B3E3F5;
+--Na: #AB5CF2;
+--Mg: #8AFF00;
+--Al: #BFA6A6;
+--Si: #F0C8A0;
+--P: #FF8000;
+--S: #FFFF30;
+--Cl: #1FF01F;
+--Ar: #80D1E3;
+--K: #8F40D4;
+--Ca: #3DFF00;
+--Sc: #E6E6E6;
+--Ti: #BFC2C7;
+--V: #A6A6AB;
+--Cr: #8A99C7;
+--Mn: #9C7AC7;
+--Fe: #E06633;
+--Co: #F090A0;
+--Ni: #50D050;
+--Cu: #C88033;
+--Zn: #7D80B0;
+--Ga: #C28F8F;
+--Ge: #668F8F;
+--As: #BD80E3;
+--Se: #FFA100;
+--Br: #A62929;
+--Kr: #5CB8D1;
+--Rb: #702EB0;
+--Sr: #00FF00;
+--Y: #94FFFF;
+--Zr: #94E0E0;
+--Nb: #73C2C9;
+--Mo: #54B5B5;
+--Tc: #3B9E9E;
+--Ru: #248F8F;
+--Rh: #0A7D8C;
+--Pd: #6985;
+--Ag: #C0C0C0;
+--Cd: #FFD98F;
+--In: #A67573;
+--Sn: #668080;
+--Sb: #9E63B5;
+--Te: #D47A00;
+--I: #940094;
+--Xe: #429EB0;
+--Cs: #57178F;
+--Ba: #00C900;
+--La: #70D4FF;
+--Ce: #FFFFC7;
+--Pr: #D9FFC7;
+--Nd: #C7FFC7;
+--Pm: #A3FFC7;
+--Sm: #8FFFC7;
+--Eu: #61FFC7;
+--Gd: #45FFC7;
+--Tb: #30FFC7;
+--Dy: #1FFFC7;
+--Ho: #00FF9C;
+--Er: #0;
+--Tm: #00D452;
+--Yb: #00BF38;
+--Lu: #00AB24;
+--Hf: #4DC2FF;
+--Ta: #4DA6FF;
+--W: #2194D6;
+--Re: #267DAB;
+--Os: #266696;
+--Ir: #175487;
+--Pt: #D0D0E0;
+--Au: #FFD123;
+--Hg: #B8B8D0;
+--Tl: #A6544D;
+--Pb: #575961;
+--Bi: #9E4FB5;
+--Po: #AB5C00;
+--At: #754F45;
+--Rn: #428296;
+--Fr: #420066;
+--Ra: #007D00;
+--Ac: #70ABFA;
+--Th: #00BAFF;
+--Pa: #00A1FF;
+--U: #008FFF;
+--Np: #0080FF;
+--Pu: #006BFF;
+--Am: #545CF2;
+--Cm: #785CE3;
+--Bk: #8A4FE3;
+--Cf: #A136D4;
+--Es: #B31FD4;
+--Fm: #B31FBA;
+--Md: #B30DA6;
+--No: #BD0D87;
+--Lr: #C70066;
+--Rf: #CC0059;
+--Db: #D1004F;
+--Sg: #D90045;
+--Bh: #E00038;
+--Hs: #E6002E;
+--Mt: #EB0026;
+--Ds: #unknown;
+--Rg: #unknown;
+--Cn: #unknown;
+--Nh: #unknown;
+--Fl: #unknown;
+--Mc: #unknown;
+--Lv: #unknown;
+--Ts: #unknown;
+--Og: #unknown;
+}
+
+#Li {
+    background-color: var(--Li);
+}
+
+#He {
+    background-color: var(--He);
+}
+
+#H {
+    background-color: var(--H);
+}
+
+#B {
+    background-color: var(--B);
+}
+
+#Be {
+    background-color: var(--Be);
+}
+
+#C {
+    background-color: var(--C);
+}
+
+#O {
+    background-color: var(--O);
+}
+
+#N {
+    background-color: var(--N);
+}
+
+#F {
+    background-color: var(--F);
+}
+
+#Na {
+    background-color: var(--Na);
+}
+
+#Ne {
+    background-color: var(--Ne);
+}
+
+#Mg {
+    background-color: var(--Mg);
+}
+
+#P {
+    background-color: var(--P);
+}
+
+#S {
+    background-color: var(--S);
+}
+
+#Si {
+    background-color: var(--Si);
+}
+
+#Cl {
+    background-color: var(--Cl);
+}
+
+#Ar {
+    background-color: var(--Ar);
+}
+
+#Ca {
+    background-color: var(--Ca);
+}
+
+#K {
+    background-color: var(--K);
+}
+
+#Sc {
+    background-color: var(--Sc);
+}
+
+#Al {
+    background-color: var(--Al);
+}
+
+#Ti {
+    background-color: var(--Ti);
+}
+
+#V {
+    background-color: var(--V);
+}
+
+#Cr {
+    background-color: var(--Cr);
+}
+
+#Mn {
+    background-color: var(--Mn);
+}
+
+#Co {
+    background-color: var(--Co);
+}
+
+#Fe {
+    background-color: var(--Fe);
+}
+
+#Ni {
+    background-color: var(--Ni);
+}
+
+#Cu {
+    background-color: var(--Cu);
+}
+
+#Zn {
+    background-color: var(--Zn);
+}
+
+#Ga {
+    background-color: var(--Ga);
+}
+
+#Ge {
+    background-color: var(--Ge);
+}
+
+#As {
+    background-color: var(--As);
+}
+
+#Se {
+    background-color: var(--Se);
+}
+
+#Br {
+    background-color: var(--Br);
+}
+
+#Kr {
+    background-color: var(--Kr);
+}
+
+#Sr {
+    background-color: var(--Sr);
+}
+
+#Rb {
+    background-color: var(--Rb);
+}
+
+#Zr {
+    background-color: var(--Zr);
+}
+
+#Y {
+    background-color: var(--Y);
+}
+
+#Nb {
+    background-color: var(--Nb);
+}
+
+#Mo {
+    background-color: var(--Mo);
+}
+
+#Tc {
+    background-color: var(--Tc);
+}
+
+#Ru {
+    background-color: var(--Ru);
+}
+
+#Rh {
+    background-color: var(--Rh);
+}
+
+#Pd {
+    background-color: var(--Pd);
+}
+
+#Ag {
+    background-color: var(--Ag);
+}
+
+#Cd {
+    background-color: var(--Cd);
+}
+
+#In {
+    background-color: var(--In);
+}
+
+#Sn {
+    background-color: var(--Sn);
+}
+
+#Sb {
+    background-color: var(--Sb);
+}
+
+#Te {
+    background-color: var(--Te);
+}
+
+#I {
+    background-color: var(--I);
+}
+
+#Xe {
+    background-color: var(--Xe);
+}
+
+#Cs {
+    background-color: var(--Cs);
+}
+
+#Ba {
+    background-color: var(--Ba);
+}
+
+#Ce {
+    background-color: var(--Ce);
+}
+
+#La {
+    background-color: var(--La);
+}
+
+#Pr {
+    background-color: var(--Pr);
+}
+
+#Nd {
+    background-color: var(--Nd);
+}
+
+#Pm {
+    background-color: var(--Pm);
+}
+
+#Sm {
+    background-color: var(--Sm);
+}
+
+#Eu {
+    background-color: var(--Eu);
+}
+
+#Gd {
+    background-color: var(--Gd);
+}
+
+#Tb {
+    background-color: var(--Tb);
+}
+
+#Dy {
+    background-color: var(--Dy);
+}
+
+#Ho {
+    background-color: var(--Ho);
+}
+
+#Er {
+    background-color: var(--Er);
+}
+
+#Tm {
+    background-color: var(--Tm);
+}
+
+#Yb {
+    background-color: var(--Yb);
+}
+
+#Lu {
+    background-color: var(--Lu);
+}
+
+#Hf {
+    background-color: var(--Hf);
+}
+
+#Ta {
+    background-color: var(--Ta);
+}
+
+#W {
+    background-color: var(--W);
+}
+
+#Re {
+    background-color: var(--Re);
+}
+
+#Os {
+    background-color: var(--Os);
+}
+
+#Ir {
+    background-color: var(--Ir);
+}
+
+#Pt {
+    background-color: var(--Pt);
+}
+
+#Au {
+    background-color: var(--Au);
+}
+
+#Hg {
+    background-color: var(--Hg);
+}
+
+#Tl {
+    background-color: var(--Tl);
+}
+
+#Pb {
+    background-color: var(--Pb);
+}
+
+#Bi {
+    background-color: var(--Bi);
+}
+
+#Po {
+    background-color: var(--Po);
+}
+
+#At {
+    background-color: var(--At);
+}
+
+#Fr {
+    background-color: var(--Fr);
+}
+
+#Rn {
+    background-color: var(--Rn);
+}
+
+#Ra {
+    background-color: var(--Ra);
+}
+
+#Ac {
+    background-color: var(--Ac);
+}
+
+#Th {
+    background-color: var(--Th);
+}
+
+#Pa {
+    background-color: var(--Pa);
+}
+
+#U {
+    background-color: var(--U);
+}
+
+#Np {
+    background-color: var(--Np);
+}
+
+#Pu {
+    background-color: var(--Pu);
+}
+
+#Am {
+    background-color: var(--Am);
+}
+
+#Cm {
+    background-color: var(--Cm);
+}
+
+#Es {
+    background-color: var(--Es);
+}
+
+#Bk {
+    background-color: var(--Bk);
+}
+
+#Cf {
+    background-color: var(--Cf);
+}
+
+#Fm {
+    background-color: var(--Fm);
+}
+
+#Md {
+    background-color: var(--Md);
+}
+
+#No {
+    background-color: var(--No);
+}
+
+#Lr {
+    background-color: var(--Lr);
+}
+
+#Rf {
+    background-color: var(--Rf);
+}
+
+#Db {
+    background-color: var(--Db);
+}
+
+#Sg {
+    background-color: var(--Sg);
+}
+
+#Bh {
+    background-color: var(--Bh);
+}
+
+#Hs {
+    background-color: var(--Hs);
+}
+
+#Mt {
+    background-color: var(--Mt);
+}
+
+#Rg {
+    background-color: var(--Rg);
+}
+
+#Ds {
+    background-color: var(--Ds);
+}
+
+#Cn {
+    background-color: var(--Cn);
+}
+
+#Nh {
+    background-color: var(--Nh);
+}
+
+#Fl {
+    background-color: var(--Fl);
+}
+
+#Lv {
+    background-color: var(--Lv);
+}
+
+#Mc {
+    background-color: var(--Mc);
+}
+
+#Ts {
+    background-color: var(--Ts);
+}
+
+#Og {
+    background-color: var(--Og);
+}
+

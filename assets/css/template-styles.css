@@ -1,0 +1,9 @@
+/* Modal Styling */
+#template {
+    display: none;
+}
+
+h2 > a {
+    color: white;
+    text-decoration: none;
+}

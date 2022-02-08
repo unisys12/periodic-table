@@ -1,0 +1,19 @@
+<div id="template">
+    {% for element in elements %}
+    <div class="template-modal" id="{{ element.atomicNumber }}">
+        <div class="modal-body" >
+            <header>
+                <h2><a href="#">{{ element.name }}</a></h2>
+            </header>
+            <div class="subgrid">
+                <div class="modal-atomicNumber">
+                    {{ element.atomicNumber }} <small>(atomic number)</small>
+                </div>
+                <div class="symbol">{{ element.symbol }}</div>
+                <div class="modal-name">{{ element.name }}</div>
+                <div class="modal-mass">{{ element.atomicMass }}</div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
