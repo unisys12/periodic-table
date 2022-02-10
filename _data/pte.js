@@ -122,7 +122,7 @@ module.exports = data = () => {
       yearDiscovered: 1807,
       block: "p",
       cpkHexColor: "FFB5B5",
-      period: 1,
+      period: 2,
       group: 13,
     },
     {
